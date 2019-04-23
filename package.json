@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --https true",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
+    "vuetify": "^1.5.12",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -20,9 +21,9 @@
     "lodash": "^4.17.11",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
+    "reset-css": "^4.0.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "reset-css": "^4.0.1",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
