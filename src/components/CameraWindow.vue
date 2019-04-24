@@ -14,7 +14,7 @@ export default {
       });
       const video = this.$refs.video;
       video.srcObject = stream;
-      video.onloadedmetadate = () => {
+      video.onloadedmetadata = () => {
         video.play();
       };
     }
